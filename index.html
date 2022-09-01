@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+
+  <body>
+    <div class="center">
+      <header>
+        <h1>Follow Up Survey</h1>
+      </header>
+
+      <form action="">
+        <!-- Date and name-->
+        <section class="flex-container">
+          <div class="flex-item">
+            <label for="date-of-use" class="bold">
+              When did you use our service?</label
+            >
+            <input
+              type="date"
+              name="date-of-use"
+              id="date-of-use"
+              class="name-date"
+            />
+            <p>Date</p>
+          </div>
+
+          <div class="flex-item">
+            <label for="name-of-product" class="bold"
+              >Name of product or service</label
+            >
+            <input
+              type="text"
+              name="name-of-product"
+              id="name-of-product"
+              class="name-date"
+            />
+          </div>
+        </section>
+
+        <!-- Satisfaction-->
+        <section>
+          <label for="satisfaction" class="bold">
+            Overall, how satisfied are you with the product or service?
+          </label>
+          <div id="satisfaction">
+            <div class="flex-container">
+              <div class="flex-item">
+                <input
+                  type="radio"
+                  name="satisfaction"
+                  id="very-satisfied"
+                  value="very satisfied"
+                />
+                <label for="very-satisfied">Very satisfied</label>
+              </div>
+
+              <div class="flex-item">
+                <input
+                  type="radio"
+                  name="satisfaction"
+                  id="satisfied"
+                  value="satisfied"
+                />
+                <label for="satisfied">Satisfied</label>
+              </div>
+
+              <div class="flex-item">
+                <input
+                  type="radio"
+                  name="satisfaction"
+                  id="neutral"
+                  value="neutral"
+                />
+                <label for="neutral">Neutral</label>
+              </div>
+
+              <div class="flex-item">
+                <input
+                  type="radio"
+                  name="satisfaction"
+                  id="unsatisfied"
+                  value="unsatisfied"
+                />
+                <label for="unsatisfied">unsatisfied</label>
+              </div>
+
+              <div class="flex-item">
+                <input
+                  type="radio"
+                  name="satisfaction"
+                  id="very-unsatisfied"
+                  value="very-unsatisfied"
+                />
+                <label for="very-unsatisfied">Very unsatisfied</label>
+              </div>
+
+              <div class="flex-item">
+                <input type="radio" name="satisfaction" id="N/A" value="N/A" />
+                <label for="N/A">N/A</label>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Expectation-->
+        <section>
+          <label for="expectation-div" class="bold"
+            >Did our product or service meet your expectations?</label
+          >
+          <div id="expectation-div" class="flex-container">
+            <div class="flex-item">
+              <input
+                type="radio"
+                name="expectation"
+                id="expectation-1"
+                value="Yes"
+              />
+              <label for="expectation-1">Yes</label>
+            </div>
+
+            <div class="flex-item">
+              <input
+                type="radio"
+                name="expectation"
+                id="expectation-0"
+                value="No"
+                checked
+              />
+              <label for="expectation-0">No</label>
+            </div>
+          </div>
+        </section>
+
+        <!--Recommendation-->
+        <section>
+          <label for="recommendation-div" class="bold">
+            Would you recommend this product or service to a friend?</label
+          >
+          <div id="recommendation-div" class="flex-container">
+            <div class="flex-item">
+              <input
+                type="radio"
+                name="recommendation"
+                id="recommendation-1"
+                value="Yes"
+              />
+              <label for="recommendation-1">Yes</label>
+            </div>
+
+            <div class="flex-item">
+              <input
+                type="radio"
+                name="recommendation"
+                id="recommendation-0"
+                value="No"
+                checked
+              />
+              <label for="recommendation-0">No</label>
+            </div>
+          </div>
+        </section>
+
+        <!--Most satisfaction-->
+        <section>
+          <label for="most-satisfaction-div" class="bold">
+            What aspect of the product or service were you most satisfied
+            by?</label
+          >
+          <div id="most-satisfaction-div" class="flex-container">
+            <div class="flex-item">
+              <input
+                type="radio"
+                name="most-satisfaction"
+                id="most-quality"
+                value="Quality"
+              />
+              <label for="most-quality">Quality</label>
+            </div>
+
+            <div class="flex-item">
+              <input
+                type="radio"
+                name="most-satisfaction"
+                id="most-costumer-service"
+                value="Costumer service"
+              />
+              <label for="most-costumer-service"> Costumer service</label>
+            </div>
+
+            <div class="flex-item">
+              <input
+                type="radio"
+                name="most-satisfaction"
+                id="most-price"
+                value="Price"
+              />
+              <label for="most-price">Price</label>
+            </div>
+
+            <div class="flex-item">
+              <input
+                type="radio"
+                name="most-satisfaction"
+                id="most-installation"
+                value="Installation or first use experience"
+              />
+              <label for="most-installation"
+                >Installation or first use experience</label
+              >
+            </div>
+          </div>
+        </section>
+
+        <!--Least satisfaction-->
+        <section>
+          <label for="least-satisfaction-div" class="bold">
+            What aspect of the product or service were you least
+            satisfiedby?</label
+          >
+          <div id="least-satisfaction-div" class="flex-container">
+            <div class="flex-item">
+              <input
+                type="radio"
+                name="least-satisfaction"
+                id="least-quality"
+                value="Quality"
+              />
+              <label for="least-quality">Quality</label>
+            </div>
+
+            <div class="flex-item">
+              <input
+                type="radio"
+                name="least-satisfaction"
+                id="least-costumer-sevice"
+                value="Costumer service"
+              />
+              <label for="least-costumer-sevice">Costumer service</label>
+            </div>
+
+            <div class="flex-item">
+              <input
+                type="radio"
+                name="least-satisfaction"
+                id="least-price"
+                value="Price"
+              />
+              <label for="least-price">Price</label>
+            </div>
+
+            <div class="flex-item">
+              <input
+                type="radio"
+                name="least-satisfaction"
+                id="least-installation"
+                value="Installation or first use experience"
+              />
+              <label for="least-installation"
+                >Installation or first use experience</label
+              >
+            </div>
+          </div>
+        </section>
+
+        <!--comments-->
+        <section>
+          <label for="comments" class="bold">Additional comments:</label>
+          <div>
+            <textarea
+              name="comments"
+              id="comments"
+              cols="88"
+              rows="8"
+              placeholder="Type here ..."
+            ></textarea>
+          </div>
+        </section>
+
+        <!--Button-->
+        <div class="flex-container-center">
+          <button type="submit" class="button">Submit</button>
+        </div>
+        <br />
+      </form>
+    </div>
+  </body>
+</html>
