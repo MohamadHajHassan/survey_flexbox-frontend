@@ -21,6 +21,11 @@ h1 {
   font-weight: bold;
   text-align: center;
 }
+::placeholder,
+p,
+label {
+  text-size-adjust: 85%;
+}
 p {
   font-size: smaller;
 }
@@ -34,19 +39,21 @@ section {
 }
 .center {
   max-width: 600px;
+  /* max-width: 60vw; */
   margin: 0 auto;
 }
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 .flex-item {
   flex: 0 1 48%;
-  /*outline: 3px solid #f71212;*/
 }
+
 .bold {
-  font-weight: bolder;
+  font-weight: bold;
 }
 .name-date {
   width: 95%;
