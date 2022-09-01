@@ -1,3 +1,4 @@
+/* resetting */
 html,
 body,
 div,
@@ -7,63 +8,84 @@ label,
 header {
   padding: 1%;
 }
+
+/* colors */
 body {
   color: #78373e;
   background-color: #abaaaa;
 }
+
 form {
   background-color: #e4e5e4;
 }
+
 header {
   background-color: #feffff;
 }
+
+/* center the page */
+.center {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* header */
 h1 {
   font-weight: bold;
   text-align: center;
 }
-::placeholder,
+
+/* text */
 p,
-label {
+label,
+::placeholder {
   text-size-adjust: 85%;
 }
+
 p {
   font-size: smaller;
 }
-textarea {
-  margin: auto;
-  margin-top: 1%;
-  width: 98%;
+
+.bold {
+  font-weight: bold;
 }
+
+/* date and name */
+.name-date {
+  width: 95%;
+  height: 25%;
+  margin-top: 3%;
+}
+
+/* sections */
 section {
   margin: 0% 5% 10%;
 }
-.center {
-  max-width: 600px;
-  /* max-width: 60vw; */
-  margin: 0 auto;
-}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .flex-item {
   flex: 0 1 48%;
 }
 
-.bold {
-  font-weight: bold;
-}
-.name-date {
-  width: 95%;
-  height: 25%;
-  margin-top: 3%;
-}
 .flex-container-center {
   display: flex;
   justify-content: center;
 }
+
+/* comments text area */
+textarea {
+  margin: auto;
+  margin-top: 1%;
+  width: 98%;
+}
+
+/* submit button */
 .button {
   padding: 2% 8%;
   border: none;
